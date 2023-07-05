@@ -22,6 +22,12 @@ function About() {
               I've been build an RT/RW Net at my home where i offered Internet Services (WiFi Services) to client at neighborhood.
               I Just Love to be IT Enthusiast.
             </p>
+            <h3 className='about-sub-heading'>Download My CV</h3>
+            <p className='about-sub-heading-details'>
+              <a href="/CV_Nico_Ari.pdf" download style={{textDecoration:"none"}}>
+              <button className='btn'style={{backgroundColor:"lightblue", border:"none", color:"white", fontSize:"20px", justifyContent:"center", marginLeft:"0px"}}>Download CV</button>
+              </a>
+            </p>
         </div>
         <div className='about-main-right'>
             <img 
